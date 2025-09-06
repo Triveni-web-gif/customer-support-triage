@@ -81,16 +81,16 @@ The dataset (`inbox.csv`) contains support emails with the following fields:
 ## 📁 Project Structure
 customer-support-triage/
 ├── data/
-│ └── inbox.csv
+│   └── inbox.csv
 ├── src/
-│ └── triage.py
+│   └── triage.py
 ├── outputs/
-│ ├── all_messages_classified.csv
-│ ├── triage_queue.csv
-│ ├── latest_threads.csv
-│ ├── summary_by_category.csv
-│ ├── category_counts.png
-│ └── response_templates.md
+│   ├── all_messages_classified.csv
+│   ├── triage_queue.csv
+│   ├── latest_threads.csv
+│   ├── summary_by_category.csv
+│   ├── category_counts.png
+│   └── response_templates.md
 ├── requirements.txt
 └── README.md
 
