@@ -17,7 +17,7 @@ The goal is to help support teams focus on the **most critical tickets first**, 
 9. [Outputs](#-outputs)  
 10. [Visualization](#-visualization)  
 11. [Future Improvements](#-future-improvements)  
-12. [Author](#-author)
+
 
 ---
 
