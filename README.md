@@ -107,19 +107,18 @@ The workflow of the triage system is simple:
 4. **Output Generation** → Multiple CSVs, summary reports, and response templates
 5. **Visualization** → Category distribution chart for managers
 
-### 📌 Workflow Diagram
-
 ```mermaid
 flowchart TD
-    A[📥 Inbox Emails (inbox.csv)] --> B[🔍 Classification (Regex Rules)]
-    B --> C[⚡ Priority Assignment (P1–P4)]
-    C --> D[🗂️ Outputs Generated]
-    D --> D1[📑 all_messages_classified.csv]
-    D --> D2[📌 triage_queue.csv]
-    D --> D3[📝 latest_threads.csv]
-    D --> D4[📊 summary_by_category.csv]
-    D --> D5[📈 category_counts.png]
-    D --> D6[✉️ response_templates.md]
+    A[Inbox Emails (inbox.csv)] --> B[Classification (Regex Rules)]
+    B --> C[Priority Assignment (P1–P4)]
+    C --> D[Outputs Generated]
+    D --> D1[all_messages_classified.csv]
+    D --> D2[triage_queue.csv]
+    D --> D3[latest_threads.csv]
+    D --> D4[summary_by_category.csv]
+    D --> D5[category_counts.png]
+    D --> D6[response_templates.md]
+
 
 
 ## ⚙️ Setup
