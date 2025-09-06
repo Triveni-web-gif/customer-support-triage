@@ -97,27 +97,7 @@ customer-support-triage/
 
 ---
 
-## 🔄 How It Works
 
-The workflow of the triage system is simple:
-
-1. **Input** → Raw customer support emails (`inbox.csv`)
-2. **Processing** → Messages classified into categories (Login Issue, Billing Error, Outage, etc.)
-3. **Prioritization** → Each ticket is assigned a priority (P1 Critical → P4 Low)
-4. **Output Generation** → Multiple CSVs, summary reports, and response templates
-5. **Visualization** → Category distribution chart for managers
-
-```mermaid
-flowchart TD
-    A[Inbox Emails (inbox.csv)] --> B[Classification (Regex Rules)]
-    B --> C[Priority Assignment (P1–P4)]
-    C --> D[Outputs Generated]
-    D --> D1[all_messages_classified.csv]
-    D --> D2[triage_queue.csv]
-    D --> D3[latest_threads.csv]
-    D --> D4[summary_by_category.csv]
-    D --> D5[category_counts.png]
-    D --> D6[response_templates.md]
 
 
 
